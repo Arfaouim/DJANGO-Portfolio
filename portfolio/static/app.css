@@ -29,7 +29,11 @@ hr {
 .home {
     height: 100vh;
 }
-
+.color-primary_1 {
+    color: #17D778;
+    font-weight : bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .color-primary {
     color: #17D778;
 }
@@ -110,23 +114,30 @@ hr {
     }
   }
 @keyframes animate {
-    30%{
-        content: 'Abdelaali ES SALMI';
+    20%{
+        content: 'Arfaoui Mehdi';
         opacity: 1;
     }
-    45%{
+    35%{
         opacity: 0;
     }
-    65%{
+    50%{
         content: 'Programmer';
         opacity: 1;
         
     }
-    70%{
+    65%{
         opacity: 0;
     }
     80%{
-        content: 'Full Stack Developer';
+        content: 'Physicist';
+        opacity: 1;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        content: 'Gamer';
         opacity: 1;
     }
 }
